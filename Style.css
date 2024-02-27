@@ -1,16 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dancing+Script:wght @400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dancing+Script:wght@400..700&family=Honk&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap');
 
 body {
-     font-family: "Dancing Script", cursive;
-     background-color: #FFFFFF;
-     color: #FF416C;
-     }
+     
+    background-image: url(fondo-galaxia-estilo-papel-cohete_23-2148966970.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 10cm;
+    background-attachment: fixed ;
+    background-size: cover;
+    display: inline-block;
+    font-family: "Dancing Script", cursive;
+    background-color: #127c12;
+    color: #f0cc00;
+    }
 
      #contenedor{
         width: 900px;
         height: 500px;
         text-align: center;
-        /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
         position: absolute;
         inset: 0;
         margin: auto;
@@ -20,25 +27,28 @@ body {
           0 10px 10px rgba(0,0,0,0.22);
       }
     #calculadora{
-        background: rgb(251, 255, 1);
-        /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+        background: rgb(120, 6, 131);
         width: 50%;
         height: 100%;
         float: left;
     }
     
     #detalle{
-        background: #0a0a0a;
-        /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
+
+        background-image: url(Dibujos\ animados\ lindo\ astronauta\ _\ Vector\ Premium.jpg);
+        background-attachment: scroll;
+        background-repeat: space;
+        background-position: contain;
+        background-position: center;
+        background-size: 800px;
         width: 50%;
         height: 100%;
         float: left;
-        color: #f6f5f7;
+        color: #070707be;
     }
     .contenido{
-        /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
         position: relative;
-        top: 50%;
+        top: 40%;
         transform: translateY(-50%);
         overflow: hidden;
         padding: 40px;
@@ -47,7 +57,7 @@ body {
         width: 70%;
         padding: 12px 15px;
         border: none;
-        background-color: #eee;
+        background-color: #EEEE;
     }
     
     button {
@@ -55,8 +65,8 @@ body {
         font-weight: bold;
         padding: 12px 45px;
         border-radius: 30px;
-        background-color: #FF416C;
-        border: 1px solid #FF416C;
+        background-color: #2fccbf;
+        border: 1px solid #f1eced;
         color: #FFFFFF;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -73,7 +83,7 @@ body {
     }
     
     .resultado{
-        color: #0A81D1;
+        color: #f8fbfd;
         font-weight: bold;
         font-size: 25px;
         margin-bottom: 5px;
